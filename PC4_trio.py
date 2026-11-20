@@ -62,13 +62,13 @@ if opciones == 'Presentación':
     col1.image("ellie.png", caption='Ellie', width=300)
     
     texto_3 = """
-    Aquí escribe una presentación creativa sobre ti.
-    ¿Quién eres? 
-    ¿De dónde eres? 
-    ¿Qué estudias?
-    ¿Qué te gusta de tu carrera? 
-    ¿Qué te gustaría hacer en el futuro?
-    ¿Qué te gusta hacer en tu tiempo libre?
+    Hola!!! Me llamo Matias, actualmente temgo 19 años, nací en febrero y eso me convierte en Acuario :). Nací en Lima, Perú y
+    estudio la carrera de publicidad en la PUCP, lo que más me gusta de mi carrera es las herramientas que te brinda la publicidad
+    para influir en el comportamiento de las personas para que prefieran tu producto o servicio frente a otros. Es interesante cómo
+    somo seres bastante influyentes. No me cierro a ninguna posibilidad que me pueda abrir mi carrera, ya que existen varias áreas, pero
+    siempre me voy a inclinar por el lado más creativo y todo lo que temga que ver con eso, me encantaría estar en vuelto en campañas
+    super disruptivas. Una de las cosas que más me gusta hacer es editar videos, siento que es una actividad que me permite recargarme, por
+    así decirlo, de creatividad.
     """
     col2.markdown(f"<div style='text-align: justify; font-size: 15px;'>{texto_3}</div>", unsafe_allow_html=True)
     
